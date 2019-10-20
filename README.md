@@ -1,0 +1,1 @@
+# nuxeo-web-ui-override-delete-button
