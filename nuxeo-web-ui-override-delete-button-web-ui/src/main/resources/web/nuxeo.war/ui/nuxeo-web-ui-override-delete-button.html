@@ -1,0 +1,10 @@
+<!-- SUPNXP-27706 -->
+<nuxeo-slot-content name="deleteDocumentAction" slot="DOCUMENT_ACTIONS" order="15" priority="100">
+  <template>
+    <nuxeo-filter document="[[document]]" user="[[user]]">
+      <template>
+        <nuxeo-delete-document-button document="[[document]]" hard></nuxeo-delete-document-button>
+      </template>
+    </nuxeo-filter>
+  </template>
+</nuxeo-slot-content>

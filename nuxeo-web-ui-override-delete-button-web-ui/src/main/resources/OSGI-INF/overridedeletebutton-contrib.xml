@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<component name="com.acme.overridedeletebutton">
+
+  <extension target="org.nuxeo.ecm.platform.WebResources" point="resources">
+
+    <resource name="nuxeo-web-ui-override-delete-button.html" type="import" shrinkable="false">
+      <uri>/ui/nuxeo-web-ui-override-delete-button.html</uri>
+    </resource>
+  </extension>
+  <extension target="org.nuxeo.ecm.platform.WebResources" point="bundles">
+    <bundle name="web-ui">
+      <resources append="true">
+        <resource>nuxeo-web-ui-override-delete-button.html</resource>
+      </resources>
+    </bundle>
+
+  </extension>
+
+</component>
